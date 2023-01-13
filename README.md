@@ -1,2 +1,2 @@
 # symfony5
-my internship symfony app
+my university internship symfony app
