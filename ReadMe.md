@@ -41,7 +41,7 @@
 * Add the new front-end template 
 * add front-end template for view profile , edit profile
 * Links redirections (href) to be working correctly in website and navbar.
-* 
+* keep the rest of front-end static if it doesn't have database CRUD operation. 
 * Styling and images are on a local directory (Css,json,images,bootstrap....etc)  
 
 , For example :
@@ -66,4 +66,4 @@
 
 red color is for the new fields or classes to be added in the future. 
 
-<img src="https://i.imgur.com/WUW03JO.png" >
+<img src="https://i.imgur.com/2GKKZJA.png" >
