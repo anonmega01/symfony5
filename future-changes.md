@@ -1,1 +1,69 @@
 
+
+
+## Admin :
+* Manage users accounts ( CRUD )
+* Manage users Roles ( can Assign a role to a user )
+* Manage Trainings
+* Manage Trainings Categories
+* Assign a Training to a Training to a user
+
+## Trainer :
+* Manage Trainings ( CRUD )
+* Manage Categories
+* Assign a Training to a Training to a user
+
+## User ( Trainee ) :
+* Can view all Trainings
+* Can ask (demand) the Admin / Trainer to participate in a Training
+* Can participate in a training
+
+
+
+
+
+# Back-End : 
+
+* Apply the new fields to the new class diagram
+
+* Review Exceptions and error handling
+
+* course_content as html ( insert my html code ) then should be treated and viewed as normal html, not like un-rendered code . 
+
+<img src="https://i.imgur.com/jtMRjwU.png">
+
+
+
+
+
+# Front-end : 
+
+* Add the new front-end template 
+* add front-end template for view profile , edit profile
+* Links redirections (href) to be working correctly in website and navbar.
+* 
+* Styling and images are on a local directory (Css,json,images,bootstrap....etc)  
+
+, For example :
+   
+   **old :**
+  ```   
+    <!-- Font css-->
+    <link rel="stylesheet" href="https://skilify.theuxuidesigner.com/fonts/stylesheet.css">
+   ```
+   
+   **new :**
+  ```
+    <!-- Font css-->
+    <link rel="stylesheet" href="mydirectory/myproject/fonts/stylesheet.css">
+ ```
+ 
+ ---
+ 
+ <br/>
+ 
+ # diagram ( new ) 
+
+red color is for the new fields or classes to be added in the future. 
+
+<img src="https://i.imgur.com/WUW03JO.png" >
