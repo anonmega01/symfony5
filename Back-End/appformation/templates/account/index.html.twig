@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte - formations {% endblock %}
+
+{% block content %}
+
+    <h1>Mon compte</h1> <br/>
+    Bienvenue <b>{{  app.user.firstname }}</b> dans votre compte. <br/> c'est dans cet espace que vous allez
+    pouvoir gérer toutes vos informations personnelles.<br/>
+
+    <hr>
+
+    - <a href="{{ path('account_password') }}" >Modifier mon mot de passe </a><br/>
+    -  Mes Formations <br/>
+
+
+
+    <br/><br/>
+
+{% endblock %}

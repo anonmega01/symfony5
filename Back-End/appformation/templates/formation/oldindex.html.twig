@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Nos Formations - La poste {% endblock %}
+
+{% block content %}
+
+    <h1>Nos Formations</h1>
+
+    <div class="row formation-container">
+        {% for formation in formations %}
+                <div class="col-md-4">
+                    <div class="formation-item text-center">
+                        <img src="/uploads/{{ formation.illustration }}" alt="{{ formation.name }}" class="img-fluid">
+                        <h4>{{ formation.name }}</h4>
+                        <span class="formation-subtitle">{{ formation.subtitle }}</span>
+                         <br/><span class="formation-date"> {{ formation.date }}</span>
+                    </div>
+                </div>
+        {% endfor %}
+    </div>
+
+    <br/>
+{% endblock %}

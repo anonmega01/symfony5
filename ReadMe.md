@@ -26,6 +26,8 @@
 
 * Apply the new fields to the new class diagram
 
+* upgrade project ( and/or dependencies) to the latests stable versions.
+
 * Review Exceptions and error handling
 
 * course_content as html ( insert my html code ) then should be treated and viewed as normal html, not like un-rendered code . 
