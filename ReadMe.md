@@ -69,3 +69,16 @@
 red color is for the new fields or classes to be added in the future. 
 
 <img src="https://i.imgur.com/2GKKZJA.png" >
+<br/>
+
+
+
+---
+
+
+<br/><br/>
+#### future modification ( front-end ) 
+ 
+<img src="https://raw.githubusercontent.com/anonmega01/symfony5/main/pic1.png" >
+<img src="https://raw.githubusercontent.com/anonmega01/symfony5/main/pic2.png" >
+<img src="https://raw.githubusercontent.com/anonmega01/symfony5/main/pic3.png" >
